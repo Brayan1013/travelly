@@ -1,0 +1,122 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Travelly is a travel agency website that helps you pick out your next destination"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Travelly | Travelling agency</title>
+    <link rel="icon" href="./icons/airplane.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Travely</h1>
+        <ul>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>avely</h1>
+      </nav>
+    </header>
+    <section class="heroe">
+      <h2>Travel beyon limits</h2>
+      <h3>
+        Start your travel at an affordable price with Travelly <br />
+        Contcat us now below
+      </h3>
+      <button>Book Now</button>
+    </section>
+
+    <section id="locations">
+      <header class="locations-head">
+        <h2>The perfect travelling experence</h2>
+        <h3>
+          We cover everything from picking the perfect hotel, <br />
+          flight and travelling destination.
+        </h3>
+        <img class="moving-cloud-1 cloud" src="./img/cloud.png" />
+        <img class="moving-cloud-2 cloud" src="./img/cloud.png" />
+      </header>
+    </section>
+
+    <section>
+      <header id="benefits">
+        <h2>The perfect Travel</h2>
+        <h3>
+          We cover everything for picking the perfect hotel <br />to flight and
+          destination.
+        </h3>
+      </header>
+      <div class="cards">
+        <div class="card">
+          <div class="img-card">
+            <img src="./icons/route-solid.svg" />
+          </div>
+          <h3>Travel</h3>
+          <p>Travel in over 250 countries with no effort</p>
+        </div>
+        <div class="card">
+          <div class="img-card">
+            <img src="./icons/bed-solid.svg" />
+          </div>
+          <h3>Hotel</h3>
+          <p>Hotels located near popular areas</p>
+        </div>
+        <div class="card">
+          <div class="img-card">
+            <img src="./icons/plane-departure-solid.svg" />
+          </div>
+          <h3>Fly</h3>
+          <p>Flight with us included in every <br />purchased trip</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-us">
+      <div class="wrapper-contact">
+        <header class="contact-title">
+          <h2>Contact us</h2>
+        </header>
+        <form action="https://formspree.io/xeqrpqlv" method="POST">
+          <div class="name-form">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="email-form">
+            <label for="email">Email: </label>
+            <input type="email" name="_replyto" id="email" required />
+          </div>
+        </form>
+        <button type="submit" value="Send">Submit</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <h1>Travelly &copy;</h1>
+        <ul>
+          <li>
+            <a href="#"><img src="./icons/twitter.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./icons/youtube.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./icons/instagram.svg" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
